@@ -1,0 +1,50 @@
+.nav-bar {
+    width: 15vw;
+    background-color: #7fd884;
+    border-right: 2px solid #eaeaea;
+
+}
+
+.nav-bar > div {
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav-bar div img {
+    width: 2vw;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+.nav-bar > div > a{
+    display: flex;
+    align-items: center;
+    background-color: #8fed8f;
+    padding: 8px;
+   border-radius: 8px 8px 8px 8px;
+    font-size: 18px;
+}
+
+.nav-bar > div > a:hover{
+    background-color: #c2f1c2;
+}
+
+
+
+.nav-bar > img{
+    width: 1.8vw;
+    height: auto;
+    margin: 10px;
+}
+
+.log-out-btn{
+    margin-top: 20px;
+    background-color: #f8b1b1;
+    padding: 8px;
+    border-radius: 8px 8px 8px 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}

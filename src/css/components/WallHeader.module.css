@@ -1,0 +1,30 @@
+.h1 {
+    color: var(--filed-color);
+    font-size: 2.2vw;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+}
+
+.input {
+    border-radius: 11px;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    width: 25vw;
+    min-width: 200px;
+    height: 43px;
+    font-size: 1vw;
+}
+
+.input + button {
+    width: 43px;
+    background: #dcdcdc;
+}
+
+.addMemberBtn {
+    border-radius: 10px;
+    background: #009444;
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}

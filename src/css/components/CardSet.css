@@ -1,0 +1,11 @@
+#card-set {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-height: 64vh;
+    overflow-y: scroll;
+}
+
+#card-set::-webkit-scrollbar {
+    width: 0;
+}

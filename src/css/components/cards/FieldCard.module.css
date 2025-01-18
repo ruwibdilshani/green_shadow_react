@@ -1,0 +1,22 @@
+.fieldCard h3 {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(97, 97, 97);
+}
+
+.fieldCard h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.fieldCard > :first-child{
+    height: 25vh;
+}
+
+.fieldCard:hover > :first-child img{
+    transform: scale(1.5);
+}
+
+.fieldCard > :first-child img{
+    object-fit: cover;
+}

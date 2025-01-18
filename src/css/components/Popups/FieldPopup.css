@@ -1,0 +1,121 @@
+#save-field-popup,
+#update-field-popup,
+#view-field-popup {
+    display: none;
+    animation: wipe 0.2s ease-in-out;
+}
+
+@keyframes wipe {
+    0% {
+        transform: translateY(-100%); /* Start off-screen */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* End at normal position */
+        opacity: 1;
+    }
+}
+
+#save-field-popup > div,
+#update-field-popup > div,
+#view-field-popup > div {
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.956);
+    box-shadow: 0px 1px 26px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2.5px);
+}
+
+#save-field-popup h2,
+#update-field-popup h2,
+#view-field-popup h2 {
+    font-size: 1.4vw;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: #009444;
+}
+
+#view-field-popup .first-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#save-field-popup .form-set , #update-field-popup .form-set , #view-field-popup .form-set {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+#save-field-popup #map , #update-field-popup #map {
+    height: 500px;
+    width: 100%;
+}
+
+#view-field-popup #map{
+    height: 250px;
+    width: 100%;
+}
+
+#update-field-popup .selected-staff{
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+#update-field-popup .selected-staff h6{
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: #9f4ce3;
+    text-align: center;
+    background: rgba(159, 76, 227, 0.32);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#update-field-popup #map{
+    height: 400px;
+}
+
+#view-field-popup .table > div{
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#view-field-popup .table > .table-head > div{
+    padding: 10px 0;
+}
+
+#view-field-popup .table .tableBody div {
+    grid-template-columns: 1fr 1fr;
+}
+
+#view-field-popup .table .tableBody{
+    overflow-y: scroll;
+    max-height: 100px;
+}
+
+#view-field-popup .table .tableBody::-webkit-scrollbar {
+    width: 0;
+}
+
+#view-field-popup .form-set{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#view-field-popup .form-set img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}

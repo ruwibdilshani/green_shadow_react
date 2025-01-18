@@ -1,0 +1,35 @@
+
+#save-vehicle-popup , #update-vehicle-popup , #view-vehicle-popup{
+    display: none;
+    animation: wipe 0.2s ease-in-out;
+}
+
+@keyframes wipe {
+    0% {
+        transform: translateY(-100%); /* Start off-screen */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* End at normal position */
+        opacity: 1;
+    }
+}
+
+#save-vehicle-popup > div , #update-vehicle-popup > div , #view-vehicle-popup > div{
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.956);
+    box-shadow: 0px 1px 26px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2.5px);
+}
+
+#save-vehicle-popup .form-set , #update-vehicle-popup .form-set , #view-vehicle-popup .form-set{
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+}
+
+#save-vehicle-popup h2 , #update-vehicle-popup h2 , #view-vehicle-popup h2{
+    font-size: 1.4vw;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: #009444;
+}

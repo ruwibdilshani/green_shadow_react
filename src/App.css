@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", serif;
+
+}
+
+
+
+.notyf__container {
+  position: absolute !important;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  z-index: 10000; /* Ensure it's above other elements */
+  background-image: none;
+  border-radius: 20px;
+}
+
+.notyf {
+  background: none;
+}
+
+.notyf__toast--upper{
+  border-radius: 18px;
+}
+
+.swal2-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --main-color: #009444;
+  --font-color: #1e1e1e;
+  --sub-font-color: #adadad;
+  --filed-color: #333;
+  --sub-text-font: #989898;
+  --font-13px: 0.679vw;
+  --font-18px: 0.979vw;
+  --font-14px: 0.729vw;
+  --font-16px: 0.875vw;
+  --font-32px: 1.667vw;
+  --font-24px: 1.25vw;
+}
+
+@media screen and (max-width: 1440px) {
+  #card-set{
+    grid-template-columns: repeat(3,1fr) !important;
+  }
+}
+
+@media screen and (max-width: 1348px) {
+  :root {
+    --font-13px: 0.879vw; /* Corrected to maintain similar scaling */
+    --font-18px: 0.99vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #card-set{
+    grid-template-columns: repeat(2,1fr) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --font-13px: 1.179vw; /* Corrected to maintain similar scaling */
+    --font-18px: 1.29vw;
+    --font-14px: 1.079vw;
+    --font-16px: 1.175vw;
+    --font-32px: 2.167vw;
+    --font-24px: 1.75vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  :root {
+    --font-13px: 1.579vw; /* Corrected to maintain similar scaling */
+    --font-18px: 1.69vw;
+    --font-14px: 1.479vw;
+    --font-16px: 1.575vw;
+    --font-32px: 2.767vw;
+    --font-24px: 2.35vw;
+  }
+}

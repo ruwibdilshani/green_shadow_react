@@ -1,0 +1,63 @@
+.tableHead > div ,
+.tableBody > div {
+    background: #fff;
+    display: grid;
+    /*grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1.5fr;*/
+    text-align: center;
+    padding: 9px 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.tableBody > div {
+    margin-top: 15px;
+}
+
+.table h5 {
+    margin: 0;
+    color: var(--font-color);
+    font-size: calc(var(--font-16px) + 3px);
+    font-weight: 500;
+}
+
+.table .tableBody h5 {
+    font-weight: 400;
+}
+
+.table .tableHead > div {
+    border-radius: 15px 15px 0 0;
+    z-index: 1000;
+    border-bottom: 1px solid;
+}
+
+.table .tableBody {
+    height: 56vh;
+    overflow-y: scroll;
+}
+
+.table .tableBody::-webkit-scrollbar {
+    width: 0;
+}
+
+.table svg {
+    width: 1vw;
+    height: 100%;
+}
+
+.table .tableBody .action > :nth-child(3) {
+    width: 1.3vw;
+}
+
+.table .tableBody .action > :first-child:hover path {
+    fill: #bc20fa;
+    transition: 0.5s;
+}
+
+.table .tableBody .action > :nth-child(2):hover path {
+    fill: #ff5c5c;
+    transition: 0.5s;
+}
+
+.table .tableBody .action > :nth-child(3):hover path {
+    fill: #1d52ff;
+    transition: 0.5s;
+}

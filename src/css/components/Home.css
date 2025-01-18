@@ -1,0 +1,46 @@
+#home-page h1 {
+    color: var(--font-color);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#home-page p {
+    color: var(--sub-text-font);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#home-page .dashboard-header .profile-img {
+    width: 50px;
+    height: 50px;
+}
+
+#home-page .count-set > div{
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    width: 15vw;
+    height: auto;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+#home-page .count-set h4{
+    color: #818181;
+    font-size: 16px;
+}
+
+#home-page .count-set h2{
+    color: #000;
+    font-size: 24px;
+}
+
+#home-page .charts {
+    grid-template-columns: repeat(2, 1fr);
+    height: 67vh; /* Adjust this if necessary */
+}
+
+#home-page .charts #vehicleChart , .charts #equipmentChart {
+    width: 100%; /* Ensure it uses full width of its grid cell */
+    max-height: 60vh; /* Restrict max size of the chart */
+    margin-top: 20px;
+}

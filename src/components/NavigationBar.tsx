@@ -69,7 +69,7 @@ const NavigationBar = () => {
 
     return (
         <div className="nav-bar text-center ">
-            <h1 className={'mt-16'}>Green Shadow</h1>
+            <h1 className={'mt-16 text-2xl font-semibold'}>Green Shadow</h1>
             <div className="d-flex flex-column m-3  justify-content-center mt-5">
                 {Object.keys(icons).map((key) => (
                     <Link to={`/dashboard/${navigations[key]}`} key={key}>

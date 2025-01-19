@@ -1,7 +1,7 @@
 .nav-bar {
     width: 15vw;
-    background-color: #7fd884;
-    border-right: 2px solid #eaeaea;
+    background-color: #acf1b0;
+    border-right: 10px solid #80c380;
 
 }
 
@@ -20,10 +20,11 @@
 .nav-bar > div > a{
     display: flex;
     align-items: center;
-    background-color: #8fed8f;
+    background-color: #95cc95;
     padding: 8px;
    border-radius: 8px 8px 8px 8px;
     font-size: 18px;
+
 }
 
 .nav-bar > div > a:hover{

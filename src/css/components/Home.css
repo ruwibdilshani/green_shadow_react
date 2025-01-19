@@ -10,10 +10,6 @@
     font-weight: 400;
 }
 
-#home-page .dashboard-header .profile-img {
-    width: 50px;
-    height: 50px;
-}
 
 #home-page .count-set > div{
     background: rgba(255, 255, 255, 0.7);
@@ -44,3 +40,9 @@
     max-height: 60vh; /* Restrict max size of the chart */
     margin-top: 20px;
 }
+
+#backImg{
+    position: fixed;
+    object-fit: cover;
+}
+

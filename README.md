@@ -1,3 +1,4 @@
+
 # 🚀 React + TypeScript + Vite Starter
 
 Welcome to the **React + TypeScript + Vite** Starter! This template provides a blazing-fast development experience with **Vite**, complete with **React 18**, **TypeScript**, and a robust **ESLint** setup for high-quality code.
@@ -63,3 +64,9 @@ export default tseslint.config({
   },
 })
 ```
+<div align="center">
+
+#### © 2024 All Right Reserved, Designed By [Ruwi B Dilshani] (https://github.com/ruwibdilshani)
+
+</div>
+

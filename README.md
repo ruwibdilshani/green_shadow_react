@@ -1,5 +1,20 @@
-# React + TypeScript + Vite
+# 🚀 React + TypeScript + Vite Starter
 
+Welcome to the **React + TypeScript + Vite** Starter! This template provides a blazing-fast development experience with **Vite**, complete with **React 18**, **TypeScript**, and a robust **ESLint** setup for high-quality code.
+
+---
+
+## ✨ Features
+
+- ⚡ **Vite** – Superfast build tool with HMR (Hot Module Replacement).
+- 🛠️ **React 18** – Build interactive user interfaces effortlessly.
+- 🔒 **TypeScript** – Type-safe development for fewer bugs.
+- ✅ **ESLint** – Configured with:
+  - Type-aware linting for accurate error detection.
+  - React-specific rules for best practices.
+  - Stylistic rules for consistent code formatting.
+ 
+    
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

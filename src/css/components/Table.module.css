@@ -1,6 +1,6 @@
 .tableHead > div ,
 .tableBody > div {
-    background: #fff;
+    background: #ffffff;
     display: grid;
     /*grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1.5fr;*/
     text-align: center;
@@ -61,3 +61,12 @@
     fill: #1d52ff;
     transition: 0.5s;
 }
+
+.table > div > div {
+    background-color: #7dcd6a;
+}
+
+.table > div > div > h5 {
+    background-color: #7dcd6a;
+}
+

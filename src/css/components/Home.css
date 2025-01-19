@@ -44,5 +44,6 @@
 #backImg{
     position: fixed;
     object-fit: cover;
+    opacity: 80%;
 }
 

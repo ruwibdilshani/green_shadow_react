@@ -66,7 +66,7 @@ export default tseslint.config({
 ```
 <div align="center">
 
-#### © 2024 All Right Reserved, Designed By [Ruwi B Dilshani] (https://github.com/ruwibdilshani)
+#### © 2025 All Right Reserved, Designed By [Ruwi B Dilshani] (https://github.com/ruwibdilshani)
 
 </div>
 
